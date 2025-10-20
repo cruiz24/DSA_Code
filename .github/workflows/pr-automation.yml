@@ -289,7 +289,7 @@ jobs:
           const { owner, repo, number } = context.issue;
 
           // List of maintainers who can review
-          const reviewers = ['Karanjot786'];
+          const reviewers = ['cruiz24', 'sphinxcastor'];
 
           // Get PR details
           const pr = await github.rest.pulls.get({ owner, repo, pull_number: number });
